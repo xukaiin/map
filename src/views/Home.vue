@@ -7,7 +7,7 @@
     </div>
     <div class="imgCont"></div>
     <button @click="handleClick">添加数据</button>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
@@ -38,7 +38,6 @@ export default {
   },
   methods:{
     handleClick(){
-      // this.items[1].sex = "women"
       this.$set(this.items[1], "sex" , "women")
     }
   }
