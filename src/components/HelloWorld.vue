@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     {{msg}}
+    <div>
+      change1
+    </div>
    </div>
 </template>
 
